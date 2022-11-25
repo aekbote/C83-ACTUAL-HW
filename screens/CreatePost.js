@@ -53,9 +53,9 @@ export default class CreatePostScreen extends Component {
           image_5: require('../assets/image_5.jpg'),
         };
         return (
-           <View styles={styles.container}>
+           <View style={styles.container}>
             <SafeAreaView style={styles.droidSafeArea} />
-              <View style={style.appTitle}>
+              <View style={styles.appTitle}>
                   <View style={styles.appIcon}>
                     <Image
                     source={require("../assets/logo.png")} style={styles.iconImage}></Image>
